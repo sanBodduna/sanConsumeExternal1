@@ -6,7 +6,7 @@ service NorthwindAPI @(
 ) {
     entity Products as projection on northwind.Products;
  
-    type Prod {
+    type Prod  {
         ProductID   : Integer;
         ProductName : String;
     }
